@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: task-analyze-costs.html
 keywords: analyze costs, compute costs, projected costs, savings, cloud analyzer
-summary: View an analysis of your cloud compute costs to get insights on past, current, and future cloud costs.
+summary: After you connect your account, view an analysis of your cloud compute costs to get insights on past, current, and future cloud costs.
 ---
 
 = Analyze your compute costs
@@ -13,7 +13,15 @@ summary: View an analysis of your cloud compute costs to get insights on past, c
 :imagesdir: ./media/
 
 [.lead]
-View an analysis of your cloud compute costs to get insights on past, current, and future cloud costs.
+After you connect your account, view an analysis of your cloud compute costs to get insights on past, current, and future cloud costs.
+
+== View a cost analysis
+
+.Steps
+
+. Click *Compute*.
+
+. View the cost analysis to gain insights into your compute costs.
 
 image:screenshot_compute_dashboard.gif[A screenshot that shows the Cost Analysis page in Cloud Manager. This page includes the information described in the text below.]
 
@@ -36,7 +44,9 @@ Top AWS Accounts:: This is a bar graph showing your top ten accounts by cost. Th
 
 https://help.spot.io/cloud-analyzer/cost-analysis/[Learn more about the Cost Analysis page that's available in Spot's Cloud Analyzer^].
 
-== Go to Cloud Analyzer for more analysis and recommendations
+== Get a full analysis
+
+Go to Cloud Analyzer for more analysis and recommendations.
 
 Click *Get Full Analysis* at any time to access more charts and analysis, in-depth recommendations, a use case optimization breakdown (containers, ElasticApps, and reservations), and more.
 
