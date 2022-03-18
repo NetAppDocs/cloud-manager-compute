@@ -17,8 +17,10 @@ sidebar:
       entries:
         - title: Learn about the Compute service
           url: /concept-compute.html
-        - title: Start optimizing your cloud compute costs
+        - title: Connect your AWS account
           url: /task-getting-started-compute.html
+    - title: Analyze your compute costs
+      url: /task-analyze-costs.html
     - title: Knowledge and support
       entries:
         - title: Register for support
@@ -34,20 +36,14 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-    - title: tile name
+        - title: Learn about the Compute service
+          url: concept-compute.html
+        - title: Connect your AWS account
+          url: task-getting-started-compute.html
+    - title: Use the Compute service
       links:
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
+        - title: Analyze your compute costs
+          url: task-analyze-costs.html
     - title: Blogs & community
       links:
         - title: NetApp Community
