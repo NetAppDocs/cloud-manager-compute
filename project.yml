@@ -1,5 +1,6 @@
 settings:
-  name: Compute	
+  name: Compute
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
@@ -26,6 +27,9 @@ sidebar:
           url: /task-get-help.html
     - title: Legal notices
       url: /legal-notices.html
+product-family:
+  name: Cloud Manager
+  repo: cloud-manager-family
 homepage:
   tiles:
     - title: Get started
