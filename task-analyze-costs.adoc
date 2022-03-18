@@ -13,7 +13,7 @@ summary: After you connect your account, view an analysis of your cloud compute 
 :imagesdir: ./media/
 
 [.lead]
-After you connect your account, view an analysis of your cloud compute costs to get insights on past, current, and future cloud costs.
+After you connect your account, view an analysis of your cloud compute costs to get insights into past, current, and future cloud costs.
 
 == View a cost analysis
 
