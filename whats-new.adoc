@@ -2,10 +2,10 @@
 sidebar: sidebar
 permalink: whats-new.html
 keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
-summary: Learn what's new in <service>.
+summary: Learn what's new with the Compute service.
 ---
 
-= What's new with <service>
+= What's new
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,46 +13,24 @@ summary: Learn what's new in <service>.
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new in <service>.
+Learn what's new with the Compute service.
 
-tag::whats-new[]
-== <date of release in the format dd month year like 28 Nov 2021>
+// tag::whats-new[]
+== 7 Dec 2020
 
-=== <feature title>
+=== Navigation between Cloud Manager and Spot
 
-<description>
+It's now easier to navigate between Cloud Manager and Spot.
 
-=== <feature title>
+A new *Storage Operations* section in Spot enables you to navigate directly to Cloud Manager. After you're done, you can get back to Spot from the *Compute* tab in Cloud Manager.
 
-<description>
+== 18 Oct 2020
 
-== <date of release in the format dd month year like 28 Nov 2021>
+=== Introducing the Compute service
 
-=== <feature title>
+By leveraging https://spot.io/products/cloud-analyzer/[Spot's Cloud Analyzer^], Cloud Manager can now provide a high-level cost analysis of your cloud compute spending and identify potential savings. This information is available from the *Compute* service in Cloud Manager.
 
-<description>
+link:concept-compute.html[Learn more about the Compute service].
 
-=== <feature title>
-
-<description>
-
-== <date of release in the format dd month year like 28 Nov 2021>
-
-=== <feature title>
-
-<description>
-
-=== <feature title>
-
-<description>
-end::whats-new[]
-
-== <date of release in the format dd month year like 28 Nov 2021>
-
-=== <feature title>
-
-<description>
-
-=== <feature title>
-
-<description>
+image:screenshot_compute_dashboard.gif[A screenshot that shows the Cost Analysis page in Cloud Manager]
+// end::whats-new[]
