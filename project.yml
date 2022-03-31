@@ -1,7 +1,54 @@
 settings:
-  name: "Product Name"
+  name: Compute
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
-sidebar: 
+sidebar:
+  entries:
+    - title: All Cloud Manager documentation
+      url: https://docs.netapp.com/us-en/cloud-manager-family
+    - title: Compute docs
+      url: /index.html
+    - title: Release notes
+      url: /whats-new.html
+    - title: Get started
+      entries:
+        - title: Learn about the Compute service
+          url: /concept-compute.html
+        - title: Connect your AWS account
+          url: /task-getting-started-compute.html
+    - title: Analyze your compute costs
+      url: /task-analyze-costs.html
+    - title: Knowledge and support
+      entries:
+        - title: Register for support
+          url: /task-support-registration.html
+        - title: Get help
+          url: /task-get-help.html
+    - title: Legal notices
+      url: /legal-notices.html
+product-family:
+  name: Cloud Manager
+  repo: cloud-manager-family
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: Learn about the Compute service
+          url: concept-compute.html
+        - title: Connect your AWS account
+          url: task-getting-started-compute.html
+    - title: Use the Compute service
+      links:
+        - title: Analyze your compute costs
+          url: task-analyze-costs.html
+    - title: Blogs & community
+      links:
+        - title: NetApp Community
+          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+        - title: Cloud Central blog
+          url: https://cloud.netapp.com/blog
+        - title: Cloud webinars
+          url: https://cloud.netapp.com/events

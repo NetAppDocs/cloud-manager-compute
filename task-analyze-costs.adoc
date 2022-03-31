@@ -1,0 +1,58 @@
+---
+sidebar: sidebar
+permalink: task-analyze-costs.html
+keywords: analyze costs, compute costs, projected costs, savings, cloud analyzer
+summary: After you connect your account, view an analysis of your cloud compute costs to get insights on past, current, and future cloud costs.
+---
+
+= Analyze your compute costs
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+After you connect your account, view an analysis of your cloud compute costs to get insights into past, current, and future cloud costs.
+
+== View a cost analysis
+
+.Steps
+
+. Click *Compute*.
+
+. View the cost analysis to gain insights into your compute costs.
+
+image:screenshot_compute_dashboard.gif[A screenshot that shows the Cost Analysis page in Cloud Manager. This page includes the information described in the text below.]
+
+Month to date cost:: The total cost of your workloads from the beginning of the current month to present.
+
+Projected Costs:: The forecasted cost at the end of the month based on analysis of your usage pattern.
+
+Last Week Missed Savings:: Savings that could have been achieved in the previous seven days using optimization of spot instances and reservations.
+
+Top AWS Account Spend Efficiency:: The top 10 accounts according to the greatest amount of estimated additional savings.
++
+Each account is assigned an efficiency score based on current and additional potential savings. The estimated additional savings indicates how much can be further saved by leveraging the use of spot and reserved instances.
++
+You can take the following actions to further optimize your accounts:
++
+* *View details*: View your cost optimization opportunities by going to Spot's Cloud Analyzer.
+* *Connect*: Connect an account that is not yet managed. You will be directed to the wizard that connects the account.
+
+Top AWS Accounts:: This is a bar graph showing your top ten accounts by cost. The graph is based on the last 30 days of spend activity.
+
+https://help.spot.io/cloud-analyzer/cost-analysis/[Learn more about the Cost Analysis page that's available in Spot's Cloud Analyzer^].
+
+== Get a full analysis
+
+Go to Cloud Analyzer for more analysis and recommendations.
+
+Click *Get Full Analysis* at any time to access more charts and analysis, in-depth recommendations, a use case optimization breakdown (containers, ElasticApps, and reservations), and more.
+
+Here's an example of what you'll see in Cloud Analyzer:
+
+image:screenshot_compute_dashboard_spot.gif[A screenshot that shows the Cost Analysis page in Spot's Cloud Analyzer.]
+
+* https://spot.io/products/cloud-analyzer/[View the product page for Cloud Analyzer to learn more about its capabilities^]
+* https://help.spot.io/cloud-analyzer/[View the documentation for Spot to get help using Cloud Analyzer^]
